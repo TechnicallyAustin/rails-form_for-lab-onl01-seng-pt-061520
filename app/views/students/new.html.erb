@@ -1,9 +1,9 @@
-<%= form_for students_path do |t|%>
+<%= form_for new_student_path do |t|%>
 <%= t.label :first_name%>
 <%= t.text_field :first_name%>
 
 <%= t.label :last_name%>
 <%= t.text_field :last_name%>
 
-<%t.submit%>
+<%=t.submit "Submit"%>
 <%end%>
